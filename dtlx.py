@@ -1759,8 +1759,8 @@ class patcher:
 		self.changePackageName(packagename)
 
 helpbanner = """     __ __   __              
- ,__|  |  |_|  |___ __ __
- |  _  |   _|  |___|_ ` _| author: Gameye98 (1.0-dev)
+ ,__|  |  |_|  |___ __ __  author: Gameye98 (1.0-dev)
+ |  _  |   _|  |___|_ ` _| modder: Trhacknon (Anon)
  |_____|____|__|   |__.__| APK REVERSER & PATCHER
 
 --rmads1: target=AndroidManifest.xml,replace=com.google.android.gms.ad
@@ -1811,6 +1811,7 @@ mainbanner = """
 \x1b[1;92m:: :  :      :     : :: : :              :   ::   \x1b[0m
 
 \x1b[1;41;93mAPK REVERSER & PATCHER - author by Gameye98 (BHSec)\x1b[0m
+\x1b[1;45;93mAPK REVERSER & PATCHER - modded by Trhacknon (Anon)\x1b[0m
 """
 # `return void;` in Smali. */
 RETURN_VOID_SMALI = ['.locals 0', 'return-void'];

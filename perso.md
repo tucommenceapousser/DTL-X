@@ -13,6 +13,14 @@ APK → Décompilation (apktool + smali) → Modifications → Recompilation →
 
 ---
 
+# example
+
+```python
+python3 dtlx.py --rmads1 --rmads3 --rmads4 --rmtrackers --paidkw --patch README_PATCH.md --fixinstall lab.apk
+```
+
+---
+
 ## ⚙️ Options principales
 
 | Option | Action technique | Résultat attendu | À combiner avec… |

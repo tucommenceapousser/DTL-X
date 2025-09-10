@@ -19,6 +19,17 @@ APK → Décompilation (apktool + smali) → Modifications → Recompilation →
 python3 dtlx.py --rmads1 --rmads3 --rmads4 --rmtrackers --paidkw --patch README_PATCH.md --fixinstall lab.apk
 ```
 
+
+- `--rmads*` : coupe les pubs
+ 
+- `--rmtrackers` : enlève les SDK analytics
+ 
+- `--paidkw` : scanne les options payantes
+ 
+- `--patch` : applique le contournement premium/pro
+ 
+- `--fixinstall` : assure l’installation correcte
+
 ---
 
 ## ⚙️ Options principales
